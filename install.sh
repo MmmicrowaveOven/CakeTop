@@ -1,11 +1,11 @@
 #!/bin/bash
 
-main() {
+main () {
   move_files
 }
 
 
-move_files() {
+move_files () {
   if [ ! -e $HOME/.config/niri ]; then
     cp ./niri $HOME/.config/niri
   else
