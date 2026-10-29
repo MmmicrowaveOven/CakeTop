@@ -19,3 +19,5 @@ move_files () {
     cp ./quickshell $HOME/.config
   fi
 }
+
+main
