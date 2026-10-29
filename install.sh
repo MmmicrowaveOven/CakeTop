@@ -21,7 +21,7 @@ move_files () {
     if [ ! -e $HOME/.config/backups ]; then
       mkdir $HOME/.config/backups
     fi
-    mv --backup=numbered -T $HOME/.config/quickshell $HOME/.config/backups/niri
+    mv --backup=numbered -T $HOME/.config/quickshell $HOME/.config/backups/quickshell
     cp -R $HOME/.config/CakeTop/quickshell $HOME/.config
   fi
 }
