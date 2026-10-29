@@ -12,7 +12,7 @@ move_files () {
     if [ ! -e $HOME/.config/backup ]; then
       mkdir $HOME/.config/backup
     fi
-    mv --backup=numbered $HOME/.config/niri $HOME/.config/backups/niri.backup
+    mv --backup=numbered $HOME/.config/niri $HOME/.config/backups
     cp -r ./niri $HOME/.config
   fi
   if [ ! -e $HOME/.config/quickshell ]; then
@@ -21,7 +21,7 @@ move_files () {
     if [ ! -e $HOME/.config/backup ]; then
       mkdir $HOME/.config/backup
     fi
-    mv --backup=numbered $HOME/.config/quickshell $HOME/.config/backups/quickshell.backup
+    mv --backup=numbered $HOME/.config/quickshell $HOME/.config/backups
     cp -r ./quickshell $HOME/.config
   fi
 }
