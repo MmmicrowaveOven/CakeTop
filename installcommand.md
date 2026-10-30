@@ -1,1 +1,1 @@
-
+sudo pacman -Syu --needed base-devel git sddm niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty fuzzel fastfetch yazi btop firefox neovim pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber qpwgraph pavucontrol realtime-prvileges nvidia-open nvidia-utils lib32-nvidia-utils 
